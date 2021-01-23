@@ -7,7 +7,7 @@
 - React Router
 - Data persisted to a local JSON file
 
-# Steps on running this app
+## Steps on running this app
 
 1. Clone this project from github
 1. In the root directory, run `npm install`
