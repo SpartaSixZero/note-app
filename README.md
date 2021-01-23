@@ -13,3 +13,4 @@
 1. In the root directory, run `npm install`
 1. First, start the Node.js server with `npm run start-server`
 1. Next, start the React app with `npm run start`
+1. Finally, navigate to `localhost:3000` to see the React app
