@@ -16,6 +16,10 @@ const EditNote = ({ list, onNoteSave }) => {
 
   const note = list.find((element) => element.id === id);
 
+  if (note === undefined) {
+    return <div>No note found with that id</div>;
+  }
+
   const onInputChange = (event) => {
     setUpdatedText(event.target.value);
   };
